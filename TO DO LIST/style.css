@@ -1,0 +1,138 @@
+* {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(181, 110, 248), rgba(0, 238, 255, 0.815), rgba(200, 132, 255, 0.808));
+    background-size: 500% 100%;
+    position:relative;
+    animation: degrade-animado 7s infinite alternate;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-x:0%;
+    } 100% {background-position-x: 100%;}
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+}
+
+.header button {
+    position: absolute;
+    right: 18%;
+    margin-top: -30px;
+} 
+
+.header i {
+  font-size: 28px;
+} 
+
+.to-do {
+  margin-top: 100px;
+  width: 60%;
+  
+}
+
+.textInsert {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  width: 120%;
+}
+
+.divInsert {
+  padding: 10px;
+  background-color: rgba(171, 242, 245, 0.397);
+  border-radius: 8px;
+  display: flex;
+  box-shadow: 6px 5px 10px 0px grey;
+}
+
+button {
+  width: 12%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.bx-plus {
+  font-size: 30px;
+  margin-left: 10px;
+  background-color: rgba(139, 14, 223, 0.486);
+  border-radius: 50%;
+  padding: 7px;
+  color: white;
+}
+
+.divLi {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(211, 211, 211, 0.295);
+  border-radius: 10px;
+  box-shadow: 6px 5px 10px 0px grey;
+  display: flex;
+  align-items: center;
+}
+
+.divLi span {
+  width: 80%;
+  color: dimgray;
+}
+
+.divLi input {
+  width: 10%;
+  outline: none;
+  accent-color: currentcolor;
+}
+
+.divLi i {
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+li {
+  list-style-type: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+@media (max-width: 775px) {
+  input {
+    width: 70%;
+  }
+
+  .divInsert button {
+    width: 30%;
+  }
+
+  i {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  p {
+    font-size: x-large;
+  }
+}

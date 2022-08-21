@@ -1,0 +1,57 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("IMAGENS/stranger-things-minimalist-uhdpaper.com-4K-3.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     
+
+}
+.max { 
+background-color: rgba(0, 0, 0, 0.686);  
+height: 150px;
+width: 400px;
+margin-top: 265px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+text-align: center;
+padding: 30px 15px;
+color: rgb(255, 253, 253);
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.267);
+
+}
+.h4 {
+    font-family: 'Playfair Display', serif;
+}
+.button { 
+    padding: 25px;
+    border: none;
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 35px;
+
+}
+
+button:hover{
+    background-color: #ff3a3a;
+}
+.bt-green { background-color: rgb(196, 163, 163);
+
+}
+
+.bt-yellow { background-color:rgb(196, 163, 163);
+    
+}
+
+.bt-red{ background-color:rgb(196, 163, 163);
+    
+} 
+
+.h1 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
